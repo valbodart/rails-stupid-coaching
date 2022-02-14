@@ -1,0 +1,41 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
+
+p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  margin: 2px 0px 10px 0px;
+}
+
+.container{
+  margin: auto 20px;
+}
+
+.author{
+  font-style: italic;
+}
+
+.question{
+  border-left: solid 5px grey;
+  padding: 1px 0px 3px 10px;
+}
+
+.answer{
+  border-left: solid 5px grey;
+  padding: 1px 0px 3px 10px;
+  background-color: blanchedalmond;
+}
+
+a {
+  color:aquamarine;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
